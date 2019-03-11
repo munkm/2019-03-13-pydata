@@ -3,12 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Leveraging Jupyter, Rust, and Webassembly for Browser-Based Data Exploration</title>
+		<title>yt and widgyts: Multidimensional Data Visulization and Exploration</title>
 
         <meta name="description" content="
-        A talk describing a proof-of-concept jupyter widget using rust-compiled webassembly for 
-        data exploration in the browser. This talk was presented at SciPy 2018 in the DataViz track
-        on Friday, July 13th in Austin, TX.">
+        A talk describing yt and the companion jupyter widgets package, widgyts for the PyData
+        meetup in Ann Arbor, MI on March 13 2019.
+        ">
         <meta name="author" content="Madicken Munk">
         
         <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -36,13 +36,15 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-                    <h3>Leveraging Jupyter, Rust, and WebAssembly for 
-                        Browser-Based Visual Data Exploration</h3>
+                    <h3>
+                        yt and widgyts: Multidimensional Data Visualization and Exploration
+                    </h3>
                     <br/>
                     <h4>Madicken Munk</h4>
-                    <h4>Scipy (Austin, TX) 2018.07.13</h4>
+                    <h4>PyData (Ann Arbor, MI) 2019.03.13</h4>
                 </section>
                 <section>
+                    <section>
                     <h5>About Me:</h5>
                         <span class="fragment">
                             <a href="http://berkeley.edu"
@@ -86,6 +88,96 @@
                             src="http://avatars1.githubusercontent.com/u/15057231?s=200&v=4"
                             alt="DXL Logo"></a>
                         </span>
+                    </section>
+                    <section>
+                        <h3>About Me:</h3>
+                        <span class="fragment">
+                            <a href="https://carpentries.org/" class="image">
+                                <img height="120"
+                                src="./images/capentries.png"
+                                alt="The Carpentries">
+                            </a>
+                            <a href="https://github.com/swcarpentry/git-novice" class="image">
+                                <img height="120"
+                                src="./images/Git-Logo-2Color.png"
+                                alt="git-novice">
+                            </a>
+                            <a href="https://numfocus.org/programs/diversity-inclusion" class="image">
+                                <img height="120"
+                                src="./images/disc_logo.png"
+                                alt="Disc committee">
+                            </a>
+                        </span>
+                    </section>
+                    <section data-background-iframe="https://discover-cookbook.numfocus.org" data-background-interactive>
+                    </section>
+                    <section data-transition="none">
+                        <h3>About Me:</h3>
+                        <span>
+                            <a href="https://carpentries.org/" class="image">
+                                <img height="120"
+                                src="./images/capentries.png"
+                                alt="The Carpentries">
+                            </a>
+                            <a href="https://github.com/swcarpentry/git-novice" class="image">
+                                <img height="120"
+                                src="./images/Git-Logo-2Color.png"
+                                alt="git-novice">
+                            </a>
+                            <a href="https://numfocus.org/programs/diversity-inclusion" class="image">
+                                <img height="120"
+                                src="./images/disc_logo.png"
+                                alt="Disc committee">
+                            </a>
+                        </span>
+                        </br>
+                        <span class="fragment">
+                            <a href="https://scipy-school.org/" class="image">
+                                <img height="120"
+                                src="http://scipy.org/_static/images/scipycentral.png"
+                                alt="scipy school">
+                            </a>
+                            <a href="https://yt-project.org/" class="image">
+                                <img height="120"
+                                src="https://github.com/yt-project/yt/raw/master/doc/source/_static/yt_logo.png"
+                                alt="yt project">
+                            </a>
+                        </span>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h3>The yt project</h3>
+                    </section>
+                    <section>
+                        <h3>The yt project: Bespoke Input Reading</h3>
+                    </section>
+                    <section>
+                        <h3>Volumetric Data Support</h3>
+                    </section>
+                    <section>
+                        <h3>An Array of Visualization Types</h3>
+                    </section>
+                    <section>
+                        <h3>Moving forward: yt in additional domains</h3>
+                        <span>
+                            <img height="250" src="./images/weather.png"
+                            title="Hover over for info.">
+                            <img height="250" src="./images/illustris.jpg"
+                            title="Hover over for info.">
+                            <img height="250" src="./images/physics.png"
+                            title="Hover over for info.">
+                        </span>
+                        </br>
+                        <span>
+                            <img height="250" src="./images/weather2.png"
+                            title="Hover over for info.">
+                            <img height="250" src="./images/world.png"
+                            title="Hover over for info.">
+                            <img height="250" src="./images/meshstuff.png"
+                            title="Hover over for info.">
+                        </span>
+                    </section>
                 </section>
                 <section>
                     <section>
@@ -527,11 +619,11 @@
                     </section>
                 </section>
 				<section>
-                    Thanks to the following individuals:
+                    Thanks to:
                     <ul>
                         <ul class="fragment">
                     <li>Matthew Turk</li>
-                    <li>Nathanael Claussen</li>
+                    <li>the yt developers and contributors</li>
                          </ul>
                         <ul class="fragment">
                     <li>Nathan Goldbaum</li>
@@ -548,8 +640,8 @@
                     <h4>Madicken Munk</h4>
                     <font size="6">twitter:@munkium &nbsp; &nbsp; &nbsp; &nbsp; github:@munkm
                     <br/>
-                    <a href="https://munkm.github.io/2018-07-13-scipy">https://munkm.github.io/2018-07-13-scipy</a>
-                    <a href="https://github.com/munkm/2018-07-13-scipy">https://github.com/munkm/2018-07-13-scipy</a>
+                    <a href="https://munkm.github.io/2019-03-13-pydata">https://munkm.github.io/2019-03-13-pydata</a>
+                    <a href="https://github.com/munkm/2019-03-13-pydata">https://github.com/munkm/2019-03-13-pydata</a>
                     <br/>
                     </font>
                     <font size="5"><b>This publication is supported in part by the Gordon and Betty Moore
@@ -557,7 +649,7 @@
                       Matthew Turk.</b></font>
                     </br>
                     <font size="5">
-                        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Leveraging Jupyter, Rust, and WebAssembly for Browser-Based visual Data Exploration</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://munkm.github.io" property="cc:attributionName" rel="cc:attributionURL">Madicken Munk</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://munkm.github.io/2018-07-13-scipy" rel="dct:source">http://munkm.github.io/2018-07-13-scipy</a>.
+                        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">yt and widgyts: Multidimensional Data Visualization and Exploration</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://munkm.github.io" property="cc:attributionName" rel="cc:attributionURL">Madicken Munk</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://munkm.github.io/2018-07-13-scipy" rel="dct:source">http://munkm.github.io/2018-07-13-scipy</a>.
                     </font>
                 </section>
 			</div>
