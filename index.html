@@ -148,15 +148,64 @@
                 <section>
                     <section>
                         <h3>The yt project</h3>
+                        </br>
+                        <a href="https://yt-project.org/">Project website</a>
+                        </br>
+                        <a href="https://github.com/yt-project/yt">project repository</a>
                     </section>
                     <section>
-                        <h3>The yt project: Bespoke Input Reading</h3>
+                        <h3>Bespoke Input Reading</h3>
+                        <h3 class="fragment">Analysis and Visualization</h3>
                     </section>
                     <section>
                         <h3>Volumetric Data Support</h3>
+                        <ul>
+                        <li class="fragment">Oct-based meshes</li>
+                        <li class="fragment">Structured, regular meshes</li>
+                        <li class="fragment">Unstructured meshes</li>
+                        <li class="fragment">Particles</li>
                     </section>
                     <section>
                         <h3>An Array of Visualization Types</h3>
+                        <span class="fragment">
+                        <li>Slice Plot</li>
+                        <li>Projection Plot</li>
+                        <li>Profile Plot</li>
+                        <li>Phase Plot</li>
+                        <li>3d surfaces and isocontours</li>
+                        </span>
+                    </section>
+                    <section>
+                        <h3>Supporting Analysis Routines</h3>
+                        <span class="fragment">
+                        <li>Derived Fields</li>
+                        <li>Clump finding</li>
+                        <li>Data Filtering</li>
+                        <li>Profiles</li>
+                        <li>Histograms</li>
+                        </span>
+                    </section>
+                    <section data-background-iframe="https://www.youtube.com/embed/ILynQhUyDc4">
+                    </section>
+                    <section>
+                        <h3>yt extension packages</h3>
+                    </section>
+                    <section>
+                        <h3>yt: the future</h3>
+                    </section>
+                    <section>
+                        <h3>Cf-Compliant Frontends</h3>
+                        <span class="fragment">
+                        <img width="1500" src="./images/cf-compliant.svg">
+                        </span>
+                    </section>
+                    <section>
+                        <h3>Medical Imaging: MRI</h3>
+                        <span class="fragment">
+                        <img height="275" src="./images/yt_mri_z_mean.png">
+                        <img height="275" src="./images/yt_mri_x1_slice.png">
+                        <img height="275" src="./images/yt_mri_z_slice.png">
+                        </span>
                     </section>
                     <section>
                         <h3>Moving forward: yt in additional domains</h3>
@@ -573,7 +622,7 @@
                         <h3>Links</h3>
                         <ul>
                             <li><a href="https://github.com/data-exp-lab/rust-yt-tools">rust-yt-tools</a> repository</li>
-                            <li><a href="https://github.com/data-exp-lab/yt-canvas-widget">yt-canvas-widget</a> repository</li>
+                            <li><a href="https://github.com/data-exp-lab/widgyts">widgyts</a> repository</li>
                             <li><a href="https://girder.hub.yt/#collection/5730acb5dd9119000142c361">Data</a> and <a href="https://arxiv.org/abs/1504.07639">paper</a> for widget demonstration</a></li>
                             <li><a href="http://use.yt/upload/f0982411">data slice</a> and <a href="http://use.yt/upload/ac418cf5">data projection</a> used in the demo</li>
                             <li>Luiz Irber's <a href=https://github.com/luizirber/2018-python-rust>poster</a> on creating rust-backed python libraries (Scipy 2018)</li>
@@ -590,8 +639,8 @@
                         </ul>
 
                         <pre class="bash"><code data-trim data-noescape>
-                            pip install yt_pycanvas
-                            jupyter nbextension enable --py --sys-prefix yt_pycanvas
+                            pip install widgyts
+                            jupyter nbextension enable --py --sys-prefix widgyts
                         </code></pre>
 
                     </section>
@@ -628,6 +677,7 @@
                         <ul class="fragment">
                     <li>Nathan Goldbaum</li>
                     <li>Kacper Kowalik</li>
+                    <li>Sam Walkow</li>
                         </ul>
                         <ul class="fragment">
 		            <li>Britton Smith</li>
